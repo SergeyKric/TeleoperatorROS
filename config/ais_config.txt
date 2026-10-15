@@ -1,0 +1,2 @@
+AIS_HOST=localhost
+AIS_PORT=9092

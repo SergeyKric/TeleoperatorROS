@@ -1,0 +1,21 @@
+Лабораторная работа №1
+Тема: Работа с системой контроля версий Git при командной разработке.
+
+Содержимое папки:
+- src/main.cpp — точка входа учебного проекта;
+- src/DataProducer.cpp — модуль отправки данных;
+- src/DataConsumer.cpp — модуль получения данных;
+- config/ais_config.txt — итоговая конфигурация после разрешения конфликта;
+- README.md — описание проекта;
+- .git — история Git с ветками и коммитами для демонстрации лабораторной работы.
+
+Полезные команды для демонстрации:
+1. git status
+2. git branch -a
+3. git log --graph --oneline --all --decorate
+4. git show feature/data-producer
+5. git show feature/ais-integration
+6. git show feature/config-update
+7. git show feature/consumer-config
+
+Текущая ветка: main.

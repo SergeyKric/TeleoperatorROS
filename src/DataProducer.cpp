@@ -1,7 +1,9 @@
 #include <iostream>
 #include <string>
 
-void sendData(const std::string& message)
+// Учебная имитация отправки данных через Kafka Producer.
+void sendDataToKafka(const std::string& topic, const std::string& message)
 {
-    std::cout << "Отправка данных в АИС ТСПК: " << message << std::endl;
+    std::cout << "Kafka Producer -> topic '" << topic
+              << "': " << message << std::endl;
 }

@@ -1,7 +1,9 @@
 #include <iostream>
 #include <string>
 
-void receiveData(const std::string& message)
+// Учебная имитация получения данных через Kafka Consumer.
+void receiveDataFromKafka(const std::string& topic, const std::string& message)
 {
-    std::cout << "Получено сообщение от АИС ТСПК: " << message << std::endl;
+    std::cout << "Kafka Consumer <- topic '" << topic
+              << "': " << message << std::endl;
 }
